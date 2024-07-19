@@ -3,7 +3,7 @@ import React from 'react';
 const Hero = () => {
   return (
     <section className='flex items-center justify-center min-h-screen bg-white'>
-      <div className='text-center'>
+      <div className='text-center px-4'>
         <h1 className='text-5xl font-Clutch font-bold mb-4'>
           Get <span className='italic font-Curl'>noticed</span> with perfectly
           tailored resumes.
@@ -17,7 +17,7 @@ const Hero = () => {
           <img
             src='/stickman.gif'
             alt='Running Stickman'
-            className='absolute w-6 h-6 ml-2'
+            className='absolute w-6 h-6 ml-2 animate-running'
           />
         </button>
       </div>
