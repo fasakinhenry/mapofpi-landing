@@ -1,3 +1,94 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'GT America';
+  src: url('/src/assets/fonts/GT-America-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Clutch';
+  src: url('/src/assets/fonts/General-Sans.woff') format('woff2'),
+    url('/src/assets/fonts/General-Sans.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Curl';
+  src: url('/src/assets/fonts/Curl-italic.woff2') format('woff2');
+  font-weight: normal;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Google Sans';
+  src: url('/src/assets/fonts/Google-sans.woff2') format('woff2');
+  font-weight: normal;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+body {
+  font-family: 'GT America', sans-serif;
+}
+
+.hero-background {
+  background-image: url('/treeoverlay.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  filter: blur(8px) brightness(0.7);
+  z-index: -1;
+}
+
+@keyframes running {
+  0% {
+    transform: translateX(-10px);
+  }
+
+  50% {
+    transform: translateX(20px);
+  }
+
+  to {
+    transform: translateX(-10px);
+  }
+}
+
+.animate-running {
+  animation: running 1s infinite;
+}
+
+/* Added to handle the hover state for images */
+button img.hidden {
+  display: none;
+}
+
+button:hover img.hidden {
+  display: inline-block;
+}
+
+button img.inline-block {
+  display: inline-block;
+}
+
+button:hover img.inline-block {
+  display: none;
+}
