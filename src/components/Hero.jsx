@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className='flex items-center justify-center min-h-screen bg-gradient-to-r from-gray-100 to-gray-200'>
+    <section className='flex items-center justify-center min-h-screen bg-white'>
       <div className='text-center'>
         <h1 className='text-5xl font-Clutch font-bold mb-4'>
           Get <span className='italic font-Curl'>noticed</span> with perfectly
