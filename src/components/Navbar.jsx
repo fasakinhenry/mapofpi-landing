@@ -2,23 +2,22 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className='bg-gray-800 p-4'>
-      <div className='container mx-auto flex justify-between items-center'>
-        <a href='/' className='text-white text-lg font-bold'>
-          MyWebsite
-        </a>
-        <div className='flex space-x-4'>
-          <a href='#features' className='text-gray-300 hover:text-white'>
-            Features
-          </a>
-          <a href='#about' className='text-gray-300 hover:text-white'>
-            About
-          </a>
-          <a href='#contact' className='text-gray-300 hover:text-white'>
-            Contact
-          </a>
-        </div>
-      </div>
+    <nav className='flex justify-between items-center py-6 px-10 bg-transparent absolute w-full'>
+      <img src='/logo.png' alt='Logo' className='w-8 h-8' />
+      <ul className='flex space-x-8 text-gray-800'>
+        <li className='font-GT text-lg'>
+          <a href='#'>Home</a>
+        </li>
+        <li className='font-GT text-lg'>
+          <a href='#'>Features</a>
+        </li>
+        <li className='font-GT text-lg'>
+          <a href='#'>Developers</a>
+        </li>
+        <li className='font-GT text-lg'>
+          <a href='#'>Community</a>
+        </li>
+      </ul>
     </nav>
   );
 };
