@@ -5,18 +5,18 @@ const Hero = () => {
   return (
     <section className='relative flex items-center justify-center min-h-screen bg-white'>
       <div className='absolute inset-0 bg-cover h-[90vh] min-h-[83vh] opacity-30 scale-[1.2] bg-hero-image z-0'></div>
-      <div className='text-center px-4 max-w-screen-lg mx-auto backdrop-blur-lg backdrop-opacity-50 rounded-lg p-6'>
-        <h1 className='text-6xl font-Clutch font-bold mb-10 leading-tight'>
+      <div className='px-6 md:px-4 max-w-screen-lg mx-auto backdrop-blur-lg backdrop-opacity-50 rounded-lg p-6'>
+        <h1 className='text-4xl md:text-6xl font-Clutch font-bold mb-6 md:mb-10 leading-tight text-left md:text-center'>
           Guard <span className='italic font-Curl'>yourself</span>, Drive{' '}
           <span className='italic font-Curl'>sales</span> and Provide Customer{' '}
           <span className='italic font-Curl'>support</span> with AI.
         </h1>
-        <p className='text-lg text-gray-600 mb-10 mx-20 font-GS'>
+        <p className='text-base md:text-lg text-gray-600 mb-6 md:mb-10 md:mx-20 font-GS text-left md:text-center'>
           NexusAI protects you from call scams, serves as your assistant and
           helps you drive sales and provide customer support using AI.
         </p>
-        <div className='flex justify-center'>
-          <button className='relative flex items-center justify-center px-6 py-3 text-lg font-medium text-white bg-black rounded-full hover:bg-white hover:text-black shadow-md transition-all duration-300'>
+        <div className='flex justify-center md:justify-center'>
+          <button className='w-full md:w-auto px-6 py-3 text-lg font-medium text-white bg-black rounded-full hover:bg-white hover:text-black shadow-md transition-all duration-300'>
             Get Started
             <img
               src='/stickman.png'
