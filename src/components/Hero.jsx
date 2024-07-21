@@ -6,7 +6,7 @@ const Hero = () => {
     <section className='relative flex items-center justify-center min-h-screen bg-white'>
       <div className='absolute inset-0 bg-cover h-[90vh] min-h-[83vh] opacity-30 scale-[1.2] bg-hero-image z-0'></div>
       <div className='px-6 md:px-4 max-w-screen-lg mx-auto backdrop-blur-lg backdrop-opacity-50 rounded-lg p-6'>
-        <h1 className='text-4xl md:text-6xl font-Clutch font-bold mb-6 md:mb-10 leading-tight text-left md:text-center lg:leading-[5rem] text-[#386f4f]'>
+        <h1 className='text-4xl md:text-6xl font-Clutch font-bold mb-6 md:mb-10 leading-tight text-left md:text-center lg:leading-[5rem]'>
           Transact <span className='italic font-Curl'>business</span>, Interact with{' '}
           <span className='italic font-Curl'>Buyers</span> and{' '}
           <span className='italic font-Curl'>Sellers</span> using PI.
