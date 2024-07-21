@@ -12,8 +12,7 @@ const Hero = () => {
           <span className='italic font-Curl'>Sellers</span> using PI.
         </h1>
         <p className='text-base md:text-lg text-gray-600 mb-6 md:mb-10 md:mx-20 font-GS text-left md:text-center'>
-          NexusAI protects you from call scams, serves as your assistant and
-          helps you drive sales and provide customer support using AI.
+          Map of PI app is a marketplace connecting buyers and sellers who want to transact business with the PI network.
         </p>
         <div className='flex justify-center md:justify-center'>
           <a className='w-full md:w-auto px-6 py-3 text-lg font-medium text-white bg-black rounded-full hover:bg-white hover:text-black shadow-md transition-all duration-300' href="https://mapofpi-react.netlify.app/">
