@@ -7,9 +7,9 @@ const Hero = () => {
       <div className='absolute inset-0 bg-cover h-[90vh] min-h-[83vh] opacity-30 scale-[1.2] bg-hero-image z-0'></div>
       <div className='px-6 md:px-4 max-w-screen-lg mx-auto backdrop-blur-lg backdrop-opacity-50 rounded-lg p-6'>
         <h1 className='text-4xl md:text-6xl font-Clutch font-bold mb-6 md:mb-10 leading-tight text-left md:text-center lg:leading-[5rem]'>
-          Guard <span className='italic font-Curl'>yourself</span>, Drive{' '}
-          <span className='italic font-Curl'>sales</span> and Provide Customer{' '}
-          <span className='italic font-Curl'>support</span> with AI.
+          Transact <span className='italic font-Curl'>business</span>, Interact with{' '}
+          <span className='italic font-Curl'>Buyers</span> and{' '}
+          <span className='italic font-Curl'>Sellers</span> using PI.
         </h1>
         <p className='text-base md:text-lg text-gray-600 mb-6 md:mb-10 md:mx-20 font-GS text-left md:text-center'>
           NexusAI protects you from call scams, serves as your assistant and
