@@ -16,7 +16,7 @@ const Hero = () => {
           helps you drive sales and provide customer support using AI.
         </p>
         <div className='flex justify-center md:justify-center'>
-          <button className='w-full md:w-auto px-6 py-3 text-lg font-medium text-white bg-black rounded-full hover:bg-white hover:text-black shadow-md transition-all duration-300'>
+          <a className='w-full md:w-auto px-6 py-3 text-lg font-medium text-white bg-black rounded-full hover:bg-white hover:text-black shadow-md transition-all duration-300' href="https://mapofpi-react.netlify.app/">
             Get Started
             <img
               src='/stickman.png'
@@ -28,7 +28,7 @@ const Hero = () => {
               alt='Running Stickman'
               className='w-6 h-6 ml-2 hidden hover:inline-block animate-running'
             />
-          </button>
+          </a>
         </div>
       </div>
     </section>
