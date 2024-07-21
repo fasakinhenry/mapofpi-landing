@@ -77,18 +77,18 @@ body {
 }
 
 /* Added to handle the hover state for images */
-button img.hidden {
+a img.hidden {
   display: none;
 }
 
-button:hover img.hidden {
+a:hover img.hidden {
   display: inline-block;
 }
 
-button img.inline-block {
+a img.inline-block {
   display: inline-block;
 }
 
-button:hover img.inline-block {
+a:hover img.inline-block {
   display: none;
 }
